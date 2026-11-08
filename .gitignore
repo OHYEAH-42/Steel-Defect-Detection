@@ -1,0 +1,35 @@
+# Personal files
+/个人文件/
+
+# Raw data and model artifacts
+/data/raw/
+/runs/
+/checkpoints/
+*.pt
+*.pth
+*.ckpt
+*.onnx
+
+# Python environments and caches
+.venv/
+venv/
+env/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.coverage
+htmlcov/
+
+# Local secrets
+.env
+.env.*
+!.env.example
+/.streamlit/secrets.toml
+*.pem
+*.key
+
+# OS files
+Thumbs.db
+.DS_Store
